@@ -2,9 +2,7 @@
 #include "kernel/stat.h"
 #include "user/user.h"
 
-char buf[512];
-
-  int
+int
 main(int argc, char *argv[])
 {
   int p[2];
