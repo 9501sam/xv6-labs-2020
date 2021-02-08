@@ -5,7 +5,10 @@
 int
 main(int argc, char *argv[])
 {
-  sleep(argc);
+  if(argc < 2)
+    sleep(10);
+  else
+    sleep(atoi(argv[1]));
   exit(0);
 }
 
